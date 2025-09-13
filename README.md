@@ -1,16 +1,66 @@
-# PropertyHub - Real Estate Web Application
+# Housing.com Inspired - AI Housing Allocation Web App
 
-A modern, mobile-responsive real estate web application built with React, TypeScript, and AI-powered insights. Similar to Housing.com and MagicBricks, featuring property listings, advanced search, and demand predictions.
+A modern, AI-powered affordable housing allocation web application inspired by Housing.com design. Features dynamic purple gradients, glassmorphism effects, and intelligent fair housing distribution algorithms.
 
 ## 🏡 Features
 
-- **Professional UI**: Modern real estate interface with dynamic gradients and animations
-- **Mobile-First Design**: Fully responsive design optimized for all devices
-- **Property Listings**: Advanced property cards with images, details, and interactive elements
-- **Smart Search**: Location-based search with advanced filtering options
-- **AI Insights**: Property demand predictions and market analytics
-- **Interactive Maps**: Geographic visualization of properties and demand hotspots
-- **Verified Listings**: All properties are thoroughly verified for authenticity
+- **Housing.com Inspired UI**: Purple gradient backgrounds with glassmorphism effects
+- **AI Fair Housing Allocation**: Intelligent algorithm for transparent housing distribution
+- **Real-time Demand Analysis**: Interactive maps showing housing demand across regions
+- **Modern Animations**: Dynamic hover effects, scale transforms, and micro-interactions
+- **Mobile-First Design**: Fully responsive with glassmorphism mobile navigation
+- **Advanced Loading States**: Modern shimmer effects and animated progress indicators
+
+## 🚀 Live Demo
+
+🌐 **Deployed on Vercel**: [Visit Live Application](https://your-app-name.vercel.app)
+
+## 🛠️ Deployment
+
+### Deploy to Vercel (Recommended)
+
+1. **Connect Repository**:
+   ```bash
+   # Push your code to GitHub (if not already done)
+   git add .
+   git commit -m "Ready for deployment"
+   git push origin main
+   ```
+
+2. **Deploy via Vercel CLI**:
+   ```bash
+   # Install Vercel CLI globally
+   npm i -g vercel
+   
+   # Login to Vercel
+   vercel login
+   
+   # Deploy your project
+   vercel
+   
+   # Follow the prompts:
+   # - Set up and deploy: Y
+   # - Which scope: Select your account
+   # - Link to existing project: N
+   # - Project name: housing-allocation-app
+   # - Directory: ./
+   # - Want to override settings: N
+   ```
+
+3. **Deploy via Vercel Dashboard**:
+   - Visit [vercel.com](https://vercel.com)
+   - Click "New Project"
+   - Import your GitHub repository
+   - Configure build settings (auto-detected)
+   - Click "Deploy"
+
+### Build Configuration
+
+The project includes optimized Vercel configuration in `vercel.json`:
+- Build command: `npm run build`
+- Output directory: `dist`
+- SPA routing support with rewrites
+- Static asset caching optimization
 
 ## 🚀 Tech Stack
 

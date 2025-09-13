@@ -9,6 +9,7 @@ import { DataAnalysis } from "./pages/DataAnalysis";
 import { DemandPrediction } from "./pages/DemandPrediction";
 import { TestDataPage } from "./pages/TestDataPage";
 import MapDashboard from "./pages/MapDashboard";
+import { AIHousingDashboard } from "./pages/AIHousingDashboard";
 
 const queryClient = new QueryClient();
 
@@ -21,6 +22,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/properties" element={<Properties />} />
+            <Route path="/ai-housing" element={<AIHousingDashboard />} />
             <Route path="/data-analysis" element={<DataAnalysis />} />
             <Route path="/demand-prediction" element={<DemandPrediction />} />
             <Route path="/map-dashboard" element={<MapDashboard />} />

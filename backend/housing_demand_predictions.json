@@ -1,0 +1,602 @@
+{
+  "analysis_summary": {
+    "total_properties_analyzed": 1903,
+    "valid_locations": 91,
+    "top_hotspots_identified": 15,
+    "analysis_date": "2025-09-13T13:17:15.721110",
+    "methodology": "Statistical demand scoring with trend projection"
+  },
+  "demand_forecast": {
+    "forecast_date": "2025-09-13T13:17:15.718854",
+    "forecast_period": "24 months",
+    "methodology": "Statistical analysis with trend projection",
+    "total_hotspots": 15,
+    "hotspots": [
+      {
+        "location_id": "gurgaon_sector_51",
+        "area": "sector_51",
+        "city": "gurgaon",
+        "demand_score": 72.0,
+        "property_count": 2,
+        "avg_price": "\u20b92.2 Cr",
+        "avg_area": "902 sq ft",
+        "price_per_sqft": "\u20b924942",
+        "investment_potential": "Very Good",
+        "recommendation": "HIGH PRIORITY: Strong demand indicators - plan development within 6 months",
+        "growth_rate": "15% annually",
+        "peak_demand_month": 24,
+        "peak_demand_score": 100.0,
+        "year1_avg_demand": 79.0,
+        "year2_avg_demand": 90.9,
+        "quarterly_forecast": [
+          {
+            "quarter": "Q1 2025",
+            "avg_demand": 74.9
+          },
+          {
+            "quarter": "Q2 2025",
+            "avg_demand": 76.3
+          },
+          {
+            "quarter": "Q3 2025",
+            "avg_demand": 79.0
+          },
+          {
+            "quarter": "Q4 2025",
+            "avg_demand": 85.9
+          }
+        ],
+        "priority_level": "HIGH"
+      },
+      {
+        "location_id": "gurgaon_dlf_phase_3",
+        "area": "dlf_phase_3",
+        "city": "gurgaon",
+        "demand_score": 70.3,
+        "property_count": 36,
+        "avg_price": "\u20b94.2 Cr",
+        "avg_area": "1738 sq ft",
+        "price_per_sqft": "\u20b923992",
+        "investment_potential": "Very Good",
+        "recommendation": "HIGH PRIORITY: Strong demand indicators - plan development within 6 months",
+        "growth_rate": "15% annually",
+        "peak_demand_month": 24,
+        "peak_demand_score": 97.6,
+        "year1_avg_demand": 77.2,
+        "year2_avg_demand": 88.8,
+        "quarterly_forecast": [
+          {
+            "quarter": "Q1 2025",
+            "avg_demand": 73.2
+          },
+          {
+            "quarter": "Q2 2025",
+            "avg_demand": 74.5
+          },
+          {
+            "quarter": "Q3 2025",
+            "avg_demand": 77.2
+          },
+          {
+            "quarter": "Q4 2025",
+            "avg_demand": 83.9
+          }
+        ],
+        "priority_level": "HIGH"
+      },
+      {
+        "location_id": "gurgaon_sector_109",
+        "area": "sector_109",
+        "city": "gurgaon",
+        "demand_score": 69.0,
+        "property_count": 74,
+        "avg_price": "\u20b97.2 Cr",
+        "avg_area": "4295 sq ft",
+        "price_per_sqft": "\u20b916702",
+        "investment_potential": "Very Good",
+        "recommendation": "HIGH PRIORITY: Strong demand indicators - plan development within 6 months",
+        "growth_rate": "15% annually",
+        "peak_demand_month": 24,
+        "peak_demand_score": 95.8,
+        "year1_avg_demand": 75.8,
+        "year2_avg_demand": 87.1,
+        "quarterly_forecast": [
+          {
+            "quarter": "Q1 2025",
+            "avg_demand": 71.8
+          },
+          {
+            "quarter": "Q2 2025",
+            "avg_demand": 73.1
+          },
+          {
+            "quarter": "Q3 2025",
+            "avg_demand": 75.7
+          },
+          {
+            "quarter": "Q4 2025",
+            "avg_demand": 82.4
+          }
+        ],
+        "priority_level": "HIGH"
+      },
+      {
+        "location_id": "gurgaon_sushant_lok",
+        "area": "sushant_lok",
+        "city": "gurgaon",
+        "demand_score": 68.2,
+        "property_count": 123,
+        "avg_price": "\u20b96.1 Cr",
+        "avg_area": "2470 sq ft",
+        "price_per_sqft": "\u20b924827",
+        "investment_potential": "Very Good",
+        "recommendation": "HIGH PRIORITY: Strong demand indicators - plan development within 6 months",
+        "growth_rate": "15% annually",
+        "peak_demand_month": 24,
+        "peak_demand_score": 94.7,
+        "year1_avg_demand": 74.9,
+        "year2_avg_demand": 86.1,
+        "quarterly_forecast": [
+          {
+            "quarter": "Q1 2025",
+            "avg_demand": 70.9
+          },
+          {
+            "quarter": "Q2 2025",
+            "avg_demand": 72.3
+          },
+          {
+            "quarter": "Q3 2025",
+            "avg_demand": 74.9
+          },
+          {
+            "quarter": "Q4 2025",
+            "avg_demand": 81.4
+          }
+        ],
+        "priority_level": "HIGH"
+      },
+      {
+        "location_id": "gurgaon_sector_17a",
+        "area": "sector_17a",
+        "city": "gurgaon",
+        "demand_score": 68.0,
+        "property_count": 6,
+        "avg_price": "\u20b93.1 Cr",
+        "avg_area": "2317 sq ft",
+        "price_per_sqft": "\u20b913407",
+        "investment_potential": "Very Good",
+        "recommendation": "HIGH PRIORITY: Strong demand indicators - plan development within 6 months",
+        "growth_rate": "15% annually",
+        "peak_demand_month": 24,
+        "peak_demand_score": 94.4,
+        "year1_avg_demand": 74.6,
+        "year2_avg_demand": 85.9,
+        "quarterly_forecast": [
+          {
+            "quarter": "Q1 2025",
+            "avg_demand": 70.7
+          },
+          {
+            "quarter": "Q2 2025",
+            "avg_demand": 72.1
+          },
+          {
+            "quarter": "Q3 2025",
+            "avg_demand": 74.6
+          },
+          {
+            "quarter": "Q4 2025",
+            "avg_demand": 81.2
+          }
+        ],
+        "priority_level": "HIGH"
+      },
+      {
+        "location_id": "gurgaon_sector_93",
+        "area": "sector_93",
+        "city": "gurgaon",
+        "demand_score": 68.0,
+        "property_count": 2,
+        "avg_price": "\u20b91.3 Cr",
+        "avg_area": "1152 sq ft",
+        "price_per_sqft": "\u20b911286",
+        "investment_potential": "Very Good",
+        "recommendation": "HIGH PRIORITY: Strong demand indicators - plan development within 6 months",
+        "growth_rate": "15% annually",
+        "peak_demand_month": 24,
+        "peak_demand_score": 94.4,
+        "year1_avg_demand": 74.6,
+        "year2_avg_demand": 85.9,
+        "quarterly_forecast": [
+          {
+            "quarter": "Q1 2025",
+            "avg_demand": 70.7
+          },
+          {
+            "quarter": "Q2 2025",
+            "avg_demand": 72.1
+          },
+          {
+            "quarter": "Q3 2025",
+            "avg_demand": 74.6
+          },
+          {
+            "quarter": "Q4 2025",
+            "avg_demand": 81.2
+          }
+        ],
+        "priority_level": "HIGH"
+      },
+      {
+        "location_id": "gurgaon_sector_104",
+        "area": "sector_104",
+        "city": "gurgaon",
+        "demand_score": 67.0,
+        "property_count": 2,
+        "avg_price": "\u20b91.9 Cr",
+        "avg_area": "917 sq ft",
+        "price_per_sqft": "\u20b921254",
+        "investment_potential": "Very Good",
+        "recommendation": "HIGH PRIORITY: Strong demand indicators - plan development within 6 months",
+        "growth_rate": "15% annually",
+        "peak_demand_month": 24,
+        "peak_demand_score": 93.0,
+        "year1_avg_demand": 73.6,
+        "year2_avg_demand": 84.6,
+        "quarterly_forecast": [
+          {
+            "quarter": "Q1 2025",
+            "avg_demand": 69.7
+          },
+          {
+            "quarter": "Q2 2025",
+            "avg_demand": 71.0
+          },
+          {
+            "quarter": "Q3 2025",
+            "avg_demand": 73.5
+          },
+          {
+            "quarter": "Q4 2025",
+            "avg_demand": 80.0
+          }
+        ],
+        "priority_level": "HIGH"
+      },
+      {
+        "location_id": "gurgaon_sector_23",
+        "area": "sector_23",
+        "city": "gurgaon",
+        "demand_score": 65.8,
+        "property_count": 8,
+        "avg_price": "\u20b93.6 Cr",
+        "avg_area": "2398 sq ft",
+        "price_per_sqft": "\u20b915171",
+        "investment_potential": "Very Good",
+        "recommendation": "HIGH PRIORITY: Strong demand indicators - plan development within 6 months",
+        "growth_rate": "15% annually",
+        "peak_demand_month": 24,
+        "peak_demand_score": 91.4,
+        "year1_avg_demand": 72.2,
+        "year2_avg_demand": 83.1,
+        "quarterly_forecast": [
+          {
+            "quarter": "Q1 2025",
+            "avg_demand": 68.5
+          },
+          {
+            "quarter": "Q2 2025",
+            "avg_demand": 69.7
+          },
+          {
+            "quarter": "Q3 2025",
+            "avg_demand": 72.2
+          },
+          {
+            "quarter": "Q4 2025",
+            "avg_demand": 78.5
+          }
+        ],
+        "priority_level": "HIGH"
+      },
+      {
+        "location_id": "gurgaon_sector_103",
+        "area": "sector_103",
+        "city": "gurgaon",
+        "demand_score": 65.5,
+        "property_count": 8,
+        "avg_price": "\u20b93.2 Cr",
+        "avg_area": "3864 sq ft",
+        "price_per_sqft": "\u20b98411",
+        "investment_potential": "Very Good",
+        "recommendation": "HIGH PRIORITY: Strong demand indicators - plan development within 6 months",
+        "growth_rate": "15% annually",
+        "peak_demand_month": 24,
+        "peak_demand_score": 91.0,
+        "year1_avg_demand": 71.9,
+        "year2_avg_demand": 82.7,
+        "quarterly_forecast": [
+          {
+            "quarter": "Q1 2025",
+            "avg_demand": 68.1
+          },
+          {
+            "quarter": "Q2 2025",
+            "avg_demand": 69.4
+          },
+          {
+            "quarter": "Q3 2025",
+            "avg_demand": 71.9
+          },
+          {
+            "quarter": "Q4 2025",
+            "avg_demand": 78.2
+          }
+        ],
+        "priority_level": "HIGH"
+      },
+      {
+        "location_id": "gurgaon_sector_69",
+        "area": "sector_69",
+        "city": "gurgaon",
+        "demand_score": 65.1,
+        "property_count": 4,
+        "avg_price": "\u20b921.7 Cr",
+        "avg_area": "1281 sq ft",
+        "price_per_sqft": "\u20b9169176",
+        "investment_potential": "Very Good",
+        "recommendation": "HIGH PRIORITY: Strong demand indicators - plan development within 6 months",
+        "growth_rate": "15% annually",
+        "peak_demand_month": 24,
+        "peak_demand_score": 90.4,
+        "year1_avg_demand": 71.5,
+        "year2_avg_demand": 82.2,
+        "quarterly_forecast": [
+          {
+            "quarter": "Q1 2025",
+            "avg_demand": 67.7
+          },
+          {
+            "quarter": "Q2 2025",
+            "avg_demand": 69.0
+          },
+          {
+            "quarter": "Q3 2025",
+            "avg_demand": 71.5
+          },
+          {
+            "quarter": "Q4 2025",
+            "avg_demand": 77.7
+          }
+        ],
+        "priority_level": "HIGH"
+      },
+      {
+        "location_id": "gurgaon_sector_111",
+        "area": "sector_111",
+        "city": "gurgaon",
+        "demand_score": 65.0,
+        "property_count": 2,
+        "avg_price": "\u20b99.0 Cr",
+        "avg_area": "7999 sq ft",
+        "price_per_sqft": "\u20b911252",
+        "investment_potential": "Very Good",
+        "recommendation": "HIGH PRIORITY: Strong demand indicators - plan development within 6 months",
+        "growth_rate": "15% annually",
+        "peak_demand_month": 24,
+        "peak_demand_score": 90.3,
+        "year1_avg_demand": 71.4,
+        "year2_avg_demand": 82.1,
+        "quarterly_forecast": [
+          {
+            "quarter": "Q1 2025",
+            "avg_demand": 67.6
+          },
+          {
+            "quarter": "Q2 2025",
+            "avg_demand": 68.9
+          },
+          {
+            "quarter": "Q3 2025",
+            "avg_demand": 71.3
+          },
+          {
+            "quarter": "Q4 2025",
+            "avg_demand": 77.6
+          }
+        ],
+        "priority_level": "HIGH"
+      },
+      {
+        "location_id": "gurgaon_sector_61",
+        "area": "sector_61",
+        "city": "gurgaon",
+        "demand_score": 65.0,
+        "property_count": 2,
+        "avg_price": "\u20b92.0 Cr",
+        "avg_area": "1548 sq ft",
+        "price_per_sqft": "\u20b912984",
+        "investment_potential": "Very Good",
+        "recommendation": "HIGH PRIORITY: Strong demand indicators - plan development within 6 months",
+        "growth_rate": "15% annually",
+        "peak_demand_month": 24,
+        "peak_demand_score": 90.3,
+        "year1_avg_demand": 71.4,
+        "year2_avg_demand": 82.1,
+        "quarterly_forecast": [
+          {
+            "quarter": "Q1 2025",
+            "avg_demand": 67.6
+          },
+          {
+            "quarter": "Q2 2025",
+            "avg_demand": 68.9
+          },
+          {
+            "quarter": "Q3 2025",
+            "avg_demand": 71.3
+          },
+          {
+            "quarter": "Q4 2025",
+            "avg_demand": 77.6
+          }
+        ],
+        "priority_level": "HIGH"
+      },
+      {
+        "location_id": "gurgaon_sector_83",
+        "area": "sector_83",
+        "city": "gurgaon",
+        "demand_score": 65.0,
+        "property_count": 2,
+        "avg_price": "\u20b91.7 Cr",
+        "avg_area": "2162 sq ft",
+        "price_per_sqft": "\u20b97864",
+        "investment_potential": "Very Good",
+        "recommendation": "HIGH PRIORITY: Strong demand indicators - plan development within 6 months",
+        "growth_rate": "15% annually",
+        "peak_demand_month": 24,
+        "peak_demand_score": 90.3,
+        "year1_avg_demand": 71.4,
+        "year2_avg_demand": 82.1,
+        "quarterly_forecast": [
+          {
+            "quarter": "Q1 2025",
+            "avg_demand": 67.6
+          },
+          {
+            "quarter": "Q2 2025",
+            "avg_demand": 68.9
+          },
+          {
+            "quarter": "Q3 2025",
+            "avg_demand": 71.3
+          },
+          {
+            "quarter": "Q4 2025",
+            "avg_demand": 77.6
+          }
+        ],
+        "priority_level": "HIGH"
+      },
+      {
+        "location_id": "gurgaon_sector_56",
+        "area": "sector_56",
+        "city": "gurgaon",
+        "demand_score": 64.3,
+        "property_count": 26,
+        "avg_price": "\u20b96.3 Cr",
+        "avg_area": "2207 sq ft",
+        "price_per_sqft": "\u20b928480",
+        "investment_potential": "Good",
+        "recommendation": "MODERATE PRIORITY: Good potential - evaluate detailed feasibility",
+        "growth_rate": "15% annually",
+        "peak_demand_month": 24,
+        "peak_demand_score": 89.3,
+        "year1_avg_demand": 70.6,
+        "year2_avg_demand": 81.2,
+        "quarterly_forecast": [
+          {
+            "quarter": "Q1 2025",
+            "avg_demand": 66.9
+          },
+          {
+            "quarter": "Q2 2025",
+            "avg_demand": 68.2
+          },
+          {
+            "quarter": "Q3 2025",
+            "avg_demand": 70.6
+          },
+          {
+            "quarter": "Q4 2025",
+            "avg_demand": 76.7
+          }
+        ],
+        "priority_level": "MEDIUM"
+      },
+      {
+        "location_id": "gurgaon_sector_38",
+        "area": "sector_38",
+        "city": "gurgaon",
+        "demand_score": 63.5,
+        "property_count": 22,
+        "avg_price": "\u20b93.9 Cr",
+        "avg_area": "1235 sq ft",
+        "price_per_sqft": "\u20b931276",
+        "investment_potential": "Good",
+        "recommendation": "MODERATE PRIORITY: Good potential - evaluate detailed feasibility",
+        "growth_rate": "15% annually",
+        "peak_demand_month": 24,
+        "peak_demand_score": 88.2,
+        "year1_avg_demand": 69.7,
+        "year2_avg_demand": 80.2,
+        "quarterly_forecast": [
+          {
+            "quarter": "Q1 2025",
+            "avg_demand": 66.1
+          },
+          {
+            "quarter": "Q2 2025",
+            "avg_demand": 67.3
+          },
+          {
+            "quarter": "Q3 2025",
+            "avg_demand": 69.7
+          },
+          {
+            "quarter": "Q4 2025",
+            "avg_demand": 75.8
+          }
+        ],
+        "priority_level": "MEDIUM"
+      }
+    ],
+    "market_trends": {
+      "average_demand_score": 66.8,
+      "leading_cities": [
+        [
+          "gurgaon",
+          15
+        ]
+      ],
+      "market_sentiment": "Bullish",
+      "growth_drivers": [
+        "Infrastructure development",
+        "Metro connectivity expansion",
+        "IT sector growth",
+        "Government housing policies"
+      ]
+    },
+    "city_rankings": [
+      {
+        "city": "Gurgaon",
+        "avg_demand_score": 66.8,
+        "hotspot_count": 15,
+        "top_areas": [
+          "sector_51",
+          "dlf_phase_3",
+          "sector_109"
+        ]
+      }
+    ],
+    "recommendations": [
+      "Focus on Gurgaon - highest growth potential and infrastructure development",
+      "Prioritize areas near metro stations and major highways",
+      "Target affordable housing segment (\u20b92-5 Cr range) for maximum demand",
+      "Monitor government policy changes affecting real estate",
+      "Consider properties with existing investment interest",
+      "Plan phased development based on quarterly demand forecasts"
+    ]
+  },
+  "data_quality": {
+    "houses_dataset_records": 1044,
+    "cleaned_dataset_records": 964,
+    "processed_valid_records": 1903,
+    "coverage": {
+      "cities": 2,
+      "areas": 90
+    }
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "dataset_info": {
+    "shape": [
+      2008,
+      21
+    ],
+    "columns": [
+      "property_name",
+      "link",
+      "society",
+      "price",
+      "rate",
+      "area",
+      "areaWithType",
+      "bedRoom",
+      "bathroom",
+      "balcony",
+      "additionalRoom",
+      "address",
+      "noOfFloor",
+      "facing",
+      "agePossession",
+      "nearbyLocations",
+      "description",
+      "furnishDetails",
+      "features",
+      "rating",
+      "property_id"
+    ],
+    "missing_values": {
+      "property_name": 0,
+      "link": 0,
+      "society": 0,
+      "price": 0,
+      "rate": 0,
+      "area": 0,
+      "areaWithType": 0,
+      "bedRoom": 0,
+      "bathroom": 0,
+      "balcony": 0,
+      "additionalRoom": 0,
+      "address": 0,
+      "noOfFloor": 0,
+      "facing": 0,
+      "agePossession": 0,
+      "nearbyLocations": 0,
+      "description": 0,
+      "furnishDetails": 0,
+      "features": 0,
+      "rating": 0,
+      "property_id": 0
+    },
+    "datasets_analyzed": [
+      "houses.csv",
+      "house_cleaned.csv"
+    ]
+  },
+  "analysis_results": {
+    "analysis_info": {
+      "timestamp": "2025-09-13",
+      "datasets_analyzed": [
+        "houses.csv",
+        "house_cleaned.csv"
+      ]
+    },
+    "datasets": {
+      "houses": {
+        "filename": "houses.csv",
+        "record_count": 1044,
+        "columns": [
+          "property_name",
+          "link",
+          "society",
+          "price",
+          "rate",
+          "area",
+          "areaWithType",
+          "bedRoom",
+          "bathroom",
+          "balcony",
+          "additionalRoom",
+          "address",
+          "noOfFloor",
+          "facing",
+          "agePossession",
+          "nearbyLocations",
+          "description",
+          "furnishDetails",
+          "features",
+          "rating",
+          "property_id"
+        ],
+        "column_count": 21,
+        "price_analysis": {
+          "count": 754,
+          "min": 10000000.0,
+          "max": 315000000.0,
+          "mean": 60968965.51724138,
+          "median": 50000000.0,
+          "prices_sample": [
+            10000000.0,
+            10000000.0,
+            10000000.0,
+            10000000.0,
+            10000000.0,
+            10000000.0,
+            10000000.0,
+            10000000.0,
+            10400000.0,
+            10500000.0
+          ]
+        },
+        "area_analysis": {
+          "count": 1044,
+          "min": 4.0,
+          "max": 809371.0,
+          "mean": 1033.38122605364,
+          "median": 180.0
+        },
+        "bedroom_distribution": {
+          "4 Bedrooms": 240,
+          "5 Bedrooms": 197,
+          "3 Bedrooms": 151,
+          "2 Bedrooms": 91,
+          "6 Bedrooms": 82,
+          "9 Bedrooms": 45,
+          "1 Bedroom": 38,
+          "8 Bedrooms": 34,
+          "7 Bedrooms": 32,
+          "12 Bedrooms": 29
+        },
+        "location_distribution": {
+          "Sector 109 Gurgaon, Gurgaon, Haryana": 27,
+          "Sector 48 Gurgaon, Gurgaon, Haryana": 22,
+          "Sector 66 Gurgaon, Gurgaon, Haryana": 20,
+          "DLF Phase 1, Gurgaon, Haryana": 17,
+          "Palam Vihar, Gurgaon, Haryana": 16,
+          "Nirvana Country, Gurgaon, Haryana": 15,
+          "DLF Phase 2, Gurgaon, Haryana": 13,
+          "Sushant Lok Phase 1, Gurgaon, Haryana": 12,
+          "Laxman Vihar, Gurgaon, Haryana": 12,
+          "Sector 46 Gurgaon, Gurgaon, Haryana": 11
+        },
+        "correlations": {}
+      },
+      "house_cleaned": {
+        "filename": "house_cleaned.csv",
+        "record_count": 964,
+        "columns": [
+          "property_name",
+          "property_type",
+          "society",
+          "price",
+          "price_per_sqft",
+          "area",
+          "areaWithType",
+          "bedRoom",
+          "bathroom",
+          "balcony",
+          "additionalRoom",
+          "address",
+          "floorNum",
+          "facing",
+          "agePossession",
+          "nearbyLocations",
+          "description",
+          "furnishDetails",
+          "features",
+          "rating"
+        ],
+        "column_count": 20,
+        "price_analysis": {
+          "count": 945,
+          "min": 700000.0000000001,
+          "max": 315000000.0,
+          "mean": 49110687.83068783,
+          "median": 36000000.0,
+          "prices_sample": [
+            700000.0000000001,
+            1300000.0,
+            1500000.0,
+            1800000.0,
+            2200000.0,
+            2400000.0,
+            2700000.0,
+            2900000.0,
+            3000000.0,
+            3000000.0
+          ]
+        },
+        "area_analysis": {
+          "count": 945,
+          "min": 45.0,
+          "max": 7250000.0,
+          "mean": 10556.097354497355,
+          "median": 1809.0
+        },
+        "bedroom_distribution": {
+          "4": 232,
+          "5": 194,
+          "3": 146,
+          "2": 88,
+          "6": 81,
+          "9": 45,
+          "1": 38,
+          "8": 33,
+          "7": 31,
+          "12": 28
+        },
+        "property_type_distribution": {
+          "house": 964
+        },
+        "society_distribution": {
+          "independent": 569,
+          "vipul tatvam villa": 19,
+          "international city by sobha phase 2": 19,
+          "emaar mgf marbella": 17,
+          "international city by sobha phase 1": 15,
+          "unitech uniworld resorts": 13,
+          "dlf city plots phase 2": 11,
+          "unitech espace": 11,
+          "dlf city plots": 11,
+          "bptp visionnaire": 8
+        },
+        "correlations": {
+          "bedrooms": 0.28,
+          "bathrooms": 0.418,
+          "area": -0.018
+        }
+      }
+    },
+    "summary": {
+      "total_datasets": 2,
+      "total_records": 2008,
+      "datasets_analyzed": [
+        "houses.csv",
+        "house_cleaned.csv"
+      ]
+    }
+  },
+  "model_info": {
+    "features": [
+      "bedrooms",
+      "bathrooms",
+      "area",
+      "location"
+    ],
+    "datasets": [
+      "houses",
+      "house_cleaned"
+    ],
+    "total_records": 2008
+  }
+}

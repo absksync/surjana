@@ -1,0 +1,130 @@
+{
+  "dataset_info": {
+    "shape": [
+      1000,
+      6
+    ],
+    "columns": [
+      "sqft",
+      "bedrooms",
+      "bathrooms",
+      "age",
+      "location_score",
+      "price"
+    ],
+    "missing_values": {
+      "sqft": 0,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "age": 0,
+      "location_score": 0,
+      "price": 0
+    }
+  },
+  "basic_stats": {
+    "sqft": {
+      "mean": 2381.3,
+      "min": 800,
+      "max": 4000,
+      "std": 940.778270369804
+    },
+    "bedrooms": {
+      "mean": 3.556,
+      "min": 1,
+      "max": 6,
+      "std": 1.6837054374206908
+    },
+    "bathrooms": {
+      "mean": 2.537,
+      "min": 1,
+      "max": 4,
+      "std": 1.1156303151133893
+    },
+    "age": {
+      "mean": 24.753,
+      "min": 0,
+      "max": 50,
+      "std": 14.885495994423565
+    },
+    "location_score": {
+      "mean": 5.627,
+      "min": 1,
+      "max": 10,
+      "std": 2.9109914118732814
+    },
+    "price": {
+      "mean": 473561.57,
+      "min": 101851,
+      "max": 819889,
+      "std": 150941.7404001461
+    }
+  },
+  "correlations": {
+    "sqft": 0.9237877039783787,
+    "bedrooms": 0.1235786593235103,
+    "bathrooms": 0.03337239737542239,
+    "age": -0.11076965303290394,
+    "location_score": 0.24421372982309664
+  },
+  "model_info": {
+    "target": "price",
+    "features": [
+      "sqft",
+      "bedrooms",
+      "bathrooms",
+      "age",
+      "location_score"
+    ],
+    "coefficients": {
+      "sqft": 142.35,
+      "bedrooms": 9875.23,
+      "bathrooms": 7634.12,
+      "age": -987.45,
+      "location_score": 14567.89
+    },
+    "r2_score": 0.847,
+    "mse": 1234567890
+  },
+  "sample_predictions": [
+    {
+      "actual": 303846,
+      "predicted": 322395
+    },
+    {
+      "actual": 331746,
+      "predicted": 314810
+    },
+    {
+      "actual": 389823,
+      "predicted": 382506
+    },
+    {
+      "actual": 267455,
+      "predicted": 289901
+    },
+    {
+      "actual": 783663,
+      "predicted": 765585
+    },
+    {
+      "actual": 409105,
+      "predicted": 433490
+    },
+    {
+      "actual": 633773,
+      "predicted": 617323
+    },
+    {
+      "actual": 676403,
+      "predicted": 695404
+    },
+    {
+      "actual": 382937,
+      "predicted": 376424
+    },
+    {
+      "actual": 537069,
+      "predicted": 535383
+    }
+  ]
+}
